@@ -1,7 +1,7 @@
 #!/bin/bash -e
 
 if [ ! -d "ve/" ]; then
-    virtualenv -q ve/ --no-site-packages
+    virtualenv -q ve/ --no-site-packages -ppython3
     echo "Virtualenv created."
 fi
 
